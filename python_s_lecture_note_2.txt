@@ -1,0 +1,33 @@
+파이썬 연산자
+++ 없고 --없고
+// 존재.
+% = 나머지, / = 나누기, // = 몫
+
+&& || 이렇게 사용하지 않음!!and, or이렇게 그대로 씀!(직관적인 언어!)
+
+
+elseif (x) elif(o)
+
+난수 생성
+import random
+
+random.randrange()이용
+random.randrange(2) 0~2사이의 값을 리턴(0 or 1) ## python은 대부분 마지막 값을 리턴하지 않음!
+random.randrange(1,7) 1~6 값 리턴
+
+삼항 연산자
+조건?true:flase (c언어)
+==>python에서는...
+
+ex)res = '합격' if score >= 60 else '불합격'
+
+리스트 초기화 = [] 빈 리스트로 만들어주면 됨.
+
+리스트이름.append('데이터') =>데이터 추가!
+
+for문!
+
+for 변수 in range(시작값, 끝값, 증감값): ##끝값하나 전까지! 끝값은 포함되지 않음
+range(3)은 range(0, 3, 1)과 같다.
+
+파이썬 r,g,b 0-1사이의값.
